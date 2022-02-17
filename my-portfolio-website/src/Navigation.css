@@ -1,0 +1,18 @@
+.Navigation {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.Navigation-bar {
+    flex-direction: row;
+    font-size: calc(5px+ 2vmin);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.Navigation-item {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

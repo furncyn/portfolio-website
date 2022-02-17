@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.App {
+  text-align: left;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+ .profile-img {
+  height: 30vmin;
+  border-radius: 100px;
+  pointer-events: none;
+}
+
+.meta-font{
+  color: #0668E1;
+}
+
+.hero {
+  background-color: #b2a68d;
+  position: relative;
+  z-index: 1;
+  margin-top: -1px;
+  margin-bottom: 200px;
+  padding-top: 80px;
+}
+
+.hero:after {
+  background: inherit;
+  bottom: -140px;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(4deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.App-header {
+  background-color: #b2a68d;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px+ 2vmin);
+  color: #282c34;
+}
